@@ -1,6 +1,3 @@
-Sure, here's the code with comments added to each line:
-
-```cpp
 #include <iostream> // Include the input/output stream library for basic I/O operations
 using namespace std;
 
@@ -76,6 +73,3 @@ int main() {
 
     return 0;
 }
-```
-
-These comments explain each line of the code, making it clearer what each part of the code does.
