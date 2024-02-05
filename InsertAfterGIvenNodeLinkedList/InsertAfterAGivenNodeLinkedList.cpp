@@ -1,4 +1,7 @@
-#include <iostream>
+Sure, here's the code with comments added to each line:
+
+```cpp
+#include <iostream> // Include the input/output stream library for basic I/O operations
 using namespace std;
 
 // A linked list node
@@ -13,8 +16,8 @@ public:
 void insertAfter(Node* prev_node, int new_data) {
     // Check if the given prev_node is NULL
     if (prev_node == NULL) {
-        cout << "The given previous node cannot be NULL" << endl;
-        return;
+        cout << "The given previous node cannot be NULL" << endl; // Print error message
+        return; // Exit the function
     }
     // Allocate memory for the new node
     Node* new_node = new Node();
@@ -43,8 +46,8 @@ void push(Node** head_ref, int new_data) {
 void printList(Node* node) {
     // Traverse the linked list and print the data of each node
     while (node != NULL) {
-        cout << " " << node->data;
-        node = node->next;
+        cout << " " << node->data; // Print the data of the current node
+        node = node->next; // Move to the next node
     }
     cout << endl; // Print a newline character after printing the list
 }
@@ -73,3 +76,6 @@ int main() {
 
     return 0;
 }
+```
+
+These comments explain each line of the code, making it clearer what each part of the code does.
